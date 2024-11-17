@@ -11,19 +11,16 @@
 **Mentor** : Neela Santhosh Kumar
 
 ### Overview of the Project
+---
+ **Project**: **A simple calculator that performs basic arithmetic operations.**
+ ![#simplecalci-output](https://github.com/user-attachments/assets/6a9fcfc6-2f06-42e5-9f3c-cf6f8a0e3545)
 
+ **Objective**
 The calculator project is a basic command-line application that allows users to perform simple arithmetic operations:
 addition, subtraction, multiplication, and division.
 It takes two numbers and an operator as input from the user, processes the input, and displays the result while
 handling potential errors like invalid input and division by zero.
-![image](https://github.com/user-attachments/assets/ade1c0d2-e4a4-4785-bec4-c6b978067b84)
 
-
----
-
-### Project
-
-**Purpose**: To create a simple calculator that performs basic arithmetic operations.
 
 **Key Activities**:
 1. **Develop the Calculator Logic**:
