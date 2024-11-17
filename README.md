@@ -16,6 +16,8 @@ The calculator project is a basic command-line application that allows users to 
 addition, subtraction, multiplication, and division.
 It takes two numbers and an operator as input from the user, processes the input, and displays the result while
 handling potential errors like invalid input and division by zero.
+![image](https://github.com/user-attachments/assets/ade1c0d2-e4a4-4785-bec4-c6b978067b84)
+
 
 ---
 
