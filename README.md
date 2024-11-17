@@ -1,14 +1,14 @@
-Name : Dyapa Sushmitha
+**Name** : Dyapa Sushmitha
 
-Company : CODTECH IT SOLUTIONS
+**Company** : CODTECH IT SOLUTIONS
 
-ID : CTO8DS9673
+**ID** : CTO8DS9673
 
-Domain : PYTHON PROGRAMMING
+**Domain** : PYTHON PROGRAMMING
 
-Duration : 4 WEEKS from OCTOBER 30th, 2024 to NOVEMBER 30th, 2024
+**Duration** : 4 WEEKS from OCTOBER 30th, 2024 to NOVEMBER 30th, 2024
 
-Mentor : Neela Santhosh Kumar
+**Mentor** : Neela Santhosh Kumar
 
 ### Overview of the Project
 
