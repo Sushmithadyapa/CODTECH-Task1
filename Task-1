@@ -1,0 +1,52 @@
+# Simple calculator using 2 integer values
+
+# Function to perform calculation
+def calculate(num1, num2, operator):
+    if operator == '+':
+        return num1 + num2
+    elif operator == '-':
+        return num1 - num2
+    elif operator == '*':
+        return num1 * num2
+    elif operator == '/':
+        if num2 == 0:
+            return "Error: Division by zero!"
+        return num1 / num2
+    else:
+        return "Invalid operator"
+
+# Main program
+print("Simple Calculator")
+print("----------------")
+
+# Get first number
+try:
+    num1 = float(input("Enter first number: "))
+except ValueError:
+    print("Error: Please enter a valid number!")
+    exit()
+
+# Get operator
+operator = input("Enter operator (+, -, *, /): ")
+if operator not in ['+', '-', '*', '/']:
+    print("Error: Invalid operator!")
+    exit()
+
+# Get second number
+try:
+    num2 = float(input("Enter second number: "))
+except ValueError:
+    print("Error: Please enter a valid number!")
+    exit()
+
+# Calculate and display result
+result = calculate(num1, num2, operator)
+if isinstance(result, str):  # If result is an error message
+    print(result)
+else:
+    # Round result to 2 decimal places if it's a float
+    if result.is_integer():
+        result = int(result)
+    else:
+        result = round(result, 2)
+    print(f"{num1} {operator} {num2} = {result}")
